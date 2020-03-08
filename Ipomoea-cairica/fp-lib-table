@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name kbd)(type KiCad)(uri ${KIPRJMOD}/../kbd/kbd.pretty)(options "")(descr ""))
+  (lib (name Ipomoea-cairica)(type KiCad)(uri ${KIPRJMOD}/../Ipomoea-cairica.pretty)(options "")(descr ""))
+)

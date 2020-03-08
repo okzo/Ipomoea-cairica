@@ -1,0 +1,10 @@
+(module M2_SCREW_HOLE (layer F.Cu) (tedit 5E5256C4)
+  (attr virtual)
+  (fp_text reference Ref** (at -0.95 -0.55) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Val** (at 0 0.55) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
+)
