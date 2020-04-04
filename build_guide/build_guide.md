@@ -10,8 +10,8 @@
 |1枚|Ipomoea-cairica-board_RIGHT(PCB)|パーツ・スイッチをつける基板(右側)|
 |1枚|Ipomoea-cairica-bottom_LEFT(PCB)|boardの下につける板(左側)|
 |1枚|Ipomoea-cairica-bottom_RIGHT(PCB)|boardの下につける板(右側)|
-|1枚|Ipomoea-cairica-bottom2under_LEFT(PCB)|bottomの下につける板(左側)|
-|1枚|Ipomoea-cairica-bottom2under_RIGHT(PCB)|bottomの下につける板(右側)|
+|2枚|Ipomoea-cairica-bottom2under_LEFT(PCB)|bottomの下につける板(左側)|
+|2枚|Ipomoea-cairica-bottom2under_RIGHT(PCB)|bottomの下につける板(右側)|
 |1枚|Ipomoea-cairica-under_LEFT(PCB)|underの下につける板(左側)|
 |1枚|Ipomoea-cairica-under_RIGHT(PCB)|underの下につける板(右側)|
 |20本|M2スペーサー 7mm|[購入](https://www.hirosugi-net.co.jp/shop/g/g65)|
@@ -122,6 +122,10 @@ US と記載されている箇所にソケットをつけます。
 
 ### コンスルーとProMicroをつけます
 
+**コンスルーはProMicro側のみはんだ付けします**
+
+基板側をはんだ付けしないことによりいつでも抜くことができるようにすることでメンテナンスしやすくするための部品です。
+
 コンスルーは横から銅が飛び出している箇所（窓）が一方にあります。
 
 窓は同じ向きにします。
@@ -140,7 +144,7 @@ ProMicroはATmega32U4（マイコン）を基板と逆側に向けてつけま�
 
 ![](2020-03-15-17-32-45.png)
 
-浮かないように注意しながらProMicro側をはんだ付けしていきます。
+浮かないように注意しながらProMicro側だけをはんだ付けしていきます。
 
 ![](2020-03-29-17-00-55.png)
 
